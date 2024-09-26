@@ -1,0 +1,9 @@
+.d {
+    font-size: calc(var(--u-ritmo-verticale-vw) * 10.625);
+}
+
+@media screen and (max-width: 640px) {
+  .d {
+  font-size: calc(var(--u-ritmo-verticale-vw-mobile) * 6.75);
+  }
+}
