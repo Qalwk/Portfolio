@@ -1,6 +1,6 @@
 .hero {
     width: 100dvw;
-    height: calc(var(--u-ritmo-verticale-vw) * 75);
+    height: calc(var(--u-ritmo-verticale-vw) * 60);
     top: 0px;
 
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 19.96%, #98DEFF 146%);
@@ -11,4 +11,20 @@
 .hero__wrapper {
     display: flex;
     justify-content: space-between;
+}
+
+.hero__wrapper-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(var(--u-ritmo-verticale-vw) * 15);
+}
+
+.hero-title {
+    font-size: calc(var(--u-ritmo-verticale-vw) * 8.5);
+    font-weight: 500;
+}
+
+.hero-img {
+    width: calc(var(--u-ritmo-verticale-vw) * 67);
+    height: calc(var(--u-ritmo-verticale-vw) * 60);
 }

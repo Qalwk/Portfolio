@@ -5,12 +5,14 @@ const Hero = () => {
   return (
     <div className='hero'>
       <div className="hero__wrapper width-restriction">
-            <div className="">
-                7tyruytliukjhg
-            </div>
-            <div className="">
-                7
-            </div>
+        <div className='hero__wrapper-left'>
+            <p className="hero-title">
+            Дизайн <br></br>
+            Разработка
+            </p>
+
+        </div>
+            <img className='hero-img' src="/photo.png" alt="" />
       </div>
     </div>
   )

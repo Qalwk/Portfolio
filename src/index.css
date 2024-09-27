@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: SF PRO;
+  color: #383838;
 }
 
 .width-restriction {
 margin: 0 auto;
-  width: calc(100% - 14rem);
+  width: calc(100% - 30rem);
   max-width: 1920px;
 }
 
