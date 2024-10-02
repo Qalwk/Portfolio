@@ -1,0 +1,16 @@
+.Card {
+    width: calc(var(--u-ritmo-verticale-vw) * 68.5);
+    height: calc(var(--u-ritmo-verticale-vw) * 83.7);
+}
+
+.Card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--u-ritmo-verticale-vw) * 3);
+}
+
+.Card-top {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--u-ritmo-verticale-vw) * 1.5);
+}

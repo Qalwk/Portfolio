@@ -6,8 +6,24 @@
   color: #383838;
 }
 
+@font-face {
+  font-family: 'CraftworkGrotesk'; /* Имя шрифта */
+  src: url('public/fonts/CraftworkGrotesk-Medium.ttf');
+  font-weight: normal; /* Укажите вес шрифта */
+  font-style: normal; /* Укажите стиль шрифта */
+}
+
+span {
+  margin: 0;
+  padding: 0;
+  font-family: CraftworkGrotesk, sans-serif;
+  color: #1BB6FF;
+  font-size: calc(var(--u-ritmo-verticale-vw) * 3.2);
+  text-wrap: nowrap; 
+}
+
 .width-restriction {
-margin: 0 auto;
+  margin: 0 auto;
   width: calc(100% - 30rem);
   max-width: 1920px;
 }

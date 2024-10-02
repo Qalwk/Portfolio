@@ -1,0 +1,27 @@
+.help {
+    margin-bottom: calc(var(--u-ritmo-verticale-vw) * 6);
+}
+
+.help-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--u-ritmo-verticale-vw) * 4.5);
+}
+
+.help-title {
+    font-size: calc(var(--u-ritmo-verticale-vw) * 5.4);
+    font-weight: 500;
+    color: #1BB6FF;
+}
+
+.help-cards-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--u-ritmo-verticale-vw) * 2);
+}
+
+.help-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

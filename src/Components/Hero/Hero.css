@@ -1,11 +1,11 @@
 .hero {
-    width: 100dvw;
+    max-width: 100dvw;
     height: calc(var(--u-ritmo-verticale-vw) * 60);
     top: 0px;
 
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 19.96%, #98DEFF 146%);
     border-radius: 0px 0px 45px 45px;
-
+    margin-bottom: calc(var(--u-ritmo-verticale-vw) * 6);
 }
 
 .hero__wrapper {
@@ -16,6 +16,7 @@
 .hero__wrapper-left {
     display: flex;
     flex-direction: column;
+    gap: calc(var(--u-ritmo-verticale-vw) * 3);
     margin-top: calc(var(--u-ritmo-verticale-vw) * 15);
 }
 

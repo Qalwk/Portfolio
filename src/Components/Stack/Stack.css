@@ -1,0 +1,48 @@
+.Stack {
+    margin-bottom: calc(var(--u-ritmo-verticale-vw) * 6);
+}
+
+.Stack-wrapper {
+    max-width: 100dvw;
+    display: flex;
+    flex-direction: row;
+    gap: calc(var(--u-ritmo-verticale-vw) * 3.5);
+}
+
+.Stack-one {
+    width: calc(var(--u-ritmo-verticale-vw) * 46.5);
+    height: calc(var(--u-ritmo-verticale-vw) * 46.5);
+    background-color: #1BB6FF;
+    border-radius: 35px;
+}
+
+.Stack-text {
+    font-size: calc(var(--u-ritmo-verticale-vw) * 5.4);
+    padding-left: calc(var(--u-ritmo-verticale-vw) * 3.5);
+    padding-top: calc(var(--u-ritmo-verticale-vw) * 2.5);
+    max-width: calc(var(--u-ritmo-verticale-vw) * 40);
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.Stack-two {
+    display: flex;
+    flex-direction: column;
+    width: calc(var(--u-ritmo-verticale-vw) * 91.7);
+    height: calc(var(--u-ritmo-verticale-vw) * 46.5);
+    background-color: #1BB6FF;
+    border-radius: 35px;
+}
+
+.Stack-img-wrapper {
+    display: flex;
+    justify-content: center;
+    width: calc(var(--u-ritmo-verticale-vw) * 91.7);
+    height: calc(var(--u-ritmo-verticale-vw) * 46.5);
+    align-items: end;
+}
+
+.Stack-img {
+    width: calc(var(--u-ritmo-verticale-vw) * 84.5);
+    height: calc(var(--u-ritmo-verticale-vw) * 31.5);
+}

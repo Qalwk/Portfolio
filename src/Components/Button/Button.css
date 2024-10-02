@@ -1,0 +1,21 @@
+.btn {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    gap: calc(var(--u-ritmo-verticale-vw) * 1);
+    align-items: center;
+    /* max-width: calc(var(--u-ritmo-verticale-vw) * 40); */
+    padding-top: calc(var(--u-ritmo-verticale-vw) * 1.6);
+    padding-bottom: calc(var(--u-ritmo-verticale-vw) * 1.6);
+    padding-left: calc(var(--u-ritmo-verticale-vw) * 3.5);
+    padding-right: calc(var(--u-ritmo-verticale-vw) * 3.5);
+    border-radius: 100px;
+    background-color: #ffffff;
+    stroke: none;
+    border: calc(var(--u-ritmo-verticale-vw) * 0.1) solid #1BB6FF; /* Устанавливаем обводку 1px синего цвета */
+}
+
+.btn-icon {
+    width: calc(var(--u-ritmo-verticale-vw) * 3.2);
+    height: calc(var(--u-ritmo-verticale-vw) * 3.2);
+}
