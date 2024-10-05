@@ -17,7 +17,7 @@
 }
 
 .Stack-text {
-    font-size: calc(var(--u-ritmo-verticale-vw) * 5.4);
+    font-size: calc(var(--u-ritmo-verticale-vw) * 5);
     padding-left: calc(var(--u-ritmo-verticale-vw) * 3.5);
     padding-top: calc(var(--u-ritmo-verticale-vw) * 2.5);
     max-width: calc(var(--u-ritmo-verticale-vw) * 40);

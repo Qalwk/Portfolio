@@ -5,10 +5,12 @@ import Button from '../Button/Button'
 const Footer = () => {
   return (
     <div className='Footer'>
-      <div className='Footer-wrapper'>
-        <p>Связаться со мной</p>
-        <Button />
-        <p></p>
+      <div className='Footer-wrapper width-restriction'>
+        <p className='help-title' style={{color:"#FFFFFF"}}>Связаться со мной</p>
+        <div className='Footer-btnwrap'>
+          <Button Text={"Написать в телеграм"} icon={1}/>
+          <p style={{color:"#FFFFFF"}}>Готов обсудить ваш проект</p>
+        </div>
       </div>
     </div>
   )

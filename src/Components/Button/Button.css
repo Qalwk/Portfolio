@@ -13,6 +13,7 @@
     background-color: #ffffff;
     stroke: none;
     border: calc(var(--u-ritmo-verticale-vw) * 0.1) solid #1BB6FF; /* Устанавливаем обводку 1px синего цвета */
+    cursor: pointer;
 }
 
 .btn-icon {

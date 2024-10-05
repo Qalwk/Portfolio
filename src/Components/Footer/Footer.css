@@ -1,0 +1,19 @@
+.Footer-wrapper {
+    width: calc(var(--u-ritmo-verticale-vw) * 142);
+    max-height: calc(var(--u-ritmo-verticale-vw) * 34.5);
+    background-color: #1BB6FF;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: calc(var(--u-ritmo-verticale-vw) * 4.5);
+    padding-bottom: calc(var(--u-ritmo-verticale-vw) * 4.5);
+    gap: calc(var(--u-ritmo-verticale-vw) * 4.5);
+}
+
+.Footer-btnwrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: calc(var(--u-ritmo-verticale-vw) * 1);
+}

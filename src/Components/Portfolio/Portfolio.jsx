@@ -6,7 +6,7 @@ import Button from '../Button/Button'
 const Portfolio = () => {
   return (
     <div className='portfolio'>
-        <div className='portfolio-blue'></div>
+      <div className='portfolio-blue'></div>
       <div className='portfolio-wrapper width-restriction'>
         <p className='portfolio-title'>Портфолио</p>
         <div className='portfolio-cards'>

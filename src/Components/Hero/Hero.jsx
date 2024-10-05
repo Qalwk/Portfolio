@@ -11,7 +11,8 @@ const Hero = () => {
             Дизайн <br></br>
             Разработка
             </p>
-            <Button color={1} Text="Обсудить проект" icon={1} onClick="https://t.me/DrJetnik"/>
+            <Button color={1} Text="Обсудить проект" icon={1} onClick={console.log("asd")}/>
+            <button onClick={alert("asd")}></button>
         </div>
             <img className='hero-img' src="/photo.png" alt="" />
       </div>

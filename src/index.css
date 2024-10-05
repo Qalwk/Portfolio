@@ -7,6 +7,13 @@
 }
 
 @font-face {
+  font-family: 'SF PRO'; /* Имя шрифта */
+  src: url('public/fonts/SF-Pro-Display-Semibold.otf');
+  font-weight: normal; /* Укажите вес шрифта */
+  font-style: normal; /* Укажите стиль шрифта */
+}
+
+@font-face {
   font-family: 'CraftworkGrotesk'; /* Имя шрифта */
   src: url('public/fonts/CraftworkGrotesk-Medium.ttf');
   font-weight: normal; /* Укажите вес шрифта */
