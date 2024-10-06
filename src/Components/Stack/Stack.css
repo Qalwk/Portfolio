@@ -45,7 +45,7 @@
 .Stack-img {
     width: calc(var(--u-ritmo-verticale-vw) * 84.5);
     height: calc(var(--u-ritmo-verticale-vw) * 31.5);
-    content: url("Stack.png");
+    content: url("Stack.svg");
 }
 
 @media screen and (max-width: 640px) {
