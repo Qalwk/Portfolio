@@ -45,7 +45,7 @@
 .Stack-img {
     width: calc(var(--u-ritmo-verticale-vw) * 84.5);
     height: calc(var(--u-ritmo-verticale-vw) * 31.5);
-    content: url("Stack.svg");
+    content: url("/Stack.svg");
 }
 
 @media screen and (max-width: 640px) {
@@ -86,6 +86,6 @@
     .Stack-img {
         width: calc(var(--u-ritmo-verticale-vw-mobile) * 35.5);
         height: calc(var(--u-ritmo-verticale-vw-mobile) * 43.5);
-        content: url("mob.svg");
+        content: url("/mob.svg");
     }
 }
