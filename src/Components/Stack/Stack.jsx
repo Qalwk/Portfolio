@@ -15,7 +15,7 @@ const Stack = () => {
             <div className='Stack-two'>
                 <p className='Stack-text'>Мой Стeк:</p>
                 <div className='Stack-img-wrapper'>
-                    <img className='Stack-img' src="Stack.png" alt="" />
+                    <img className='Stack-img' alt="" />
                 </div>
             </div>
         </div>

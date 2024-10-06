@@ -29,3 +29,29 @@
     width: calc(var(--u-ritmo-verticale-vw) * 67);
     height: calc(var(--u-ritmo-verticale-vw) * 60);
 }
+
+
+@media screen and (max-width: 640px) {
+    .hero {
+        height: calc(var(--u-ritmo-verticale-vw-mobile) * 62);
+        margin-bottom: calc(var(--u-ritmo-verticale-vw-mobile) * 4);
+    }
+    .hero__wrapper {
+        align-items: center;
+        flex-direction: column;
+        gap: calc(var(--u-ritmo-verticale-vw-mobile) * 2);
+    }
+    .hero__wrapper-left {
+        gap: calc(var(--u-ritmo-verticale-vw-mobile) * 3);
+        margin-top: calc(var(--u-ritmo-verticale-vw-mobile) * 8);
+    }
+    .hero-title {
+        font-size: calc(var(--u-ritmo-verticale-vw-mobile) * 5.4);
+        text-align: center;
+    }
+    
+    .hero-img {
+        width: calc(var(--u-ritmo-verticale-vw-mobile) * 34);
+        height: calc(var(--u-ritmo-verticale-vw-mobile) * 30);
+    }
+}

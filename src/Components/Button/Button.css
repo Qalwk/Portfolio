@@ -20,3 +20,27 @@
     width: calc(var(--u-ritmo-verticale-vw) * 3.2);
     height: calc(var(--u-ritmo-verticale-vw) * 3.2);
 }
+
+@media screen and (max-width: 640px) {
+    .btn-text {
+        font-size: calc(var(--u-ritmo-verticale-vw-mobile) * 2.2);
+    }
+    .btn {
+        gap: calc(var(--u-ritmo-verticale-vw-mobile) * 1);
+        align-items: center;
+        padding-top: calc(var(--u-ritmo-verticale-vw-mobile) * 1.6);
+        padding-bottom: calc(var(--u-ritmo-verticale-vw-mobile) * 1.6);
+        padding-left: calc(var(--u-ritmo-verticale-vw-mobile) * 3.5);
+        padding-right: calc(var(--u-ritmo-verticale-vw-mobile) * 3.5);
+        border-radius: 100px;
+        background-color: #ffffff;
+        stroke: none;
+        border: calc(var(--u-ritmo-verticale-vw-mobile) * 0.1) solid #1BB6FF; /* Устанавливаем обводку 1px синего цвета */
+        cursor: pointer;
+    }
+    
+    .btn-icon {
+        width: calc(var(--u-ritmo-verticale-vw-mobile) * 3.2);
+        height: calc(var(--u-ritmo-verticale-vw-mobile) * 3.2);
+    }
+}

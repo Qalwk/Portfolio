@@ -35,3 +35,33 @@
     flex-wrap: wrap;
     column-gap: calc(var(--u-ritmo-verticale-vw) * 5);
 }
+
+@media screen and (max-width: 640px) {
+    .btn-text {
+        font-size: calc(var(--u-ritmo-verticale-vw-mobile) * 2.2);
+    }
+    .portfolio {
+        margin-bottom: calc(var(--u-ritmo-verticale-vw-mobile) * 6);
+    }
+    
+    .portfolio-blue {
+        height: calc(var(--u-ritmo-verticale-vw-mobile) * 60);
+    }
+    
+    .portfolio-wrapper {
+        gap: calc(var(--u-ritmo-verticale-vw-mobile) * 4);
+        padding-top: calc(var(--u-ritmo-verticale-vw-mobile) * 4);
+    }
+    
+    .portfolio-title {
+        font-size: calc(var(--u-ritmo-verticale-vw-mobile) * 5.4);
+        font-weight: 500;
+    }
+    
+    .portfolio-cards {
+        width: calc(var(--u-ritmo-verticale-vw) * 142);
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: calc(var(--u-ritmo-verticale-vw) * 10);
+    }
+}

@@ -14,3 +14,27 @@
     flex-direction: column;
     gap: calc(var(--u-ritmo-verticale-vw) * 1.5);
 }
+
+
+@media screen and (max-width: 640px) {    
+    .Card {
+        width: calc(var(--u-ritmo-verticale-vw-mobile) * 35.5);
+        height: auto;
+    }
+    
+    .Card-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: calc(var(--u-ritmo-verticale-vw-mobile) * 2.5);
+    }
+    
+    .Card-top {
+        display: flex;
+        flex-direction: column;
+        gap: calc(var(--u-ritmo-verticale-vw-mobile) * 1.5);
+    }
+
+    .card-name {
+        font-size: calc(var(--u-ritmo-verticale-vw-mobile) * 1.8);
+    }
+}

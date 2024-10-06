@@ -45,4 +45,47 @@
 .Stack-img {
     width: calc(var(--u-ritmo-verticale-vw) * 84.5);
     height: calc(var(--u-ritmo-verticale-vw) * 31.5);
+    content: url("Stack.png");
+}
+
+@media screen and (max-width: 640px) {
+    .Stack {
+        margin-bottom: calc(var(--u-ritmo-verticale-vw-mobile) * 4);
+    }
+    
+    .Stack-wrapper {
+        flex-direction: column;
+        gap: calc(var(--u-ritmo-verticale-vw-mobile) * 2.5);
+        align-items: center;
+    }
+    
+    .Stack-one {
+        width: calc(var(--u-ritmo-verticale-vw-mobile) * 35.5);
+        height: calc(var(--u-ritmo-verticale-vw-mobile) * 25.5);
+    }
+    
+    .Stack-text {
+        font-size: calc(var(--u-ritmo-verticale-vw-mobile) * 3.2);
+        padding-left: calc(var(--u-ritmo-verticale-vw-mobile) * 2.5);
+        padding-top: calc(var(--u-ritmo-verticale-vw-mobile) * 1.5);
+        max-width: calc(var(--u-ritmo-verticale-vw-mobile) * 26.5);
+    }
+    
+    .Stack-two {
+
+        justify-content: space-between;
+        width: calc(var(--u-ritmo-verticale-vw-mobile) * 35.5);
+        height: calc(var(--u-ritmo-verticale-vw-mobile) * 49.5);
+    }
+    
+    .Stack-img-wrapper {
+        width: calc(var(--u-ritmo-verticale-vw-mobile) * 35.5);
+        height: calc(var(--u-ritmo-verticale-vw-mobile) * 38.5);
+    }
+    
+    .Stack-img {
+        width: calc(var(--u-ritmo-verticale-vw-mobile) * 35.5);
+        height: calc(var(--u-ritmo-verticale-vw-mobile) * 43.5);
+        content: url("mob.svg");
+    }
 }

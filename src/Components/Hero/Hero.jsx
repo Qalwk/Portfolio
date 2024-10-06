@@ -3,6 +3,11 @@ import './Hero.css'
 import Button from '../Button/Button'
 
 const Hero = () => {
+  const handleButtonClick = () => {
+    // Replace 'https://your-website.com' with the actual URL
+    window.location.href = 'https://t.me/DrJetnik'; 
+  };
+
   return (
     <div className='hero'>
       <div className="hero__wrapper width-restriction">
@@ -11,10 +16,12 @@ const Hero = () => {
             Дизайн <br></br>
             Разработка
             </p>
-            <Button color={1} Text="Обсудить проект" icon={1} onClick={console.log("asd")}/>
-            <button onClick={alert("asd")}></button>
+            <div className='btn-wrap' onClick={handleButtonClick}>
+              <Button color={1} Text="Обсудить проект" icon={1}/>
+            </div>
+            {/* <button onClick={alert("asd")}></button> */}
         </div>
-            <img className='hero-img' src="/photo.png" alt="" />
+        <img className='hero-img' src="/photo.png" alt="" />
       </div>
     </div>
   )

@@ -25,3 +25,33 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 640px) {
+    .help {
+        margin-bottom: calc(var(--u-ritmo-verticale-vw-mobile) * 6);
+    }
+    
+    .help-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: calc(var(--u-ritmo-verticale-vw-mobile) * 2.5);
+        align-items: center;
+    }
+    
+    .help-title {
+        font-size: calc(var(--u-ritmo-verticale-vw-mobile) * 3.4);
+    }
+    
+    .help-cards-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: calc(var(--u-ritmo-verticale-vw-mobile) * 1);
+    }
+    
+    .help-cards {
+        display: flex;
+        flex-direction: column;
+        width: calc(var(--u-ritmo-verticale-vw-mobile) * 35.5);
+        gap: calc(var(--u-ritmo-verticale-vw-mobile) * 1);
+    }
+}
