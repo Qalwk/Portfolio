@@ -14,7 +14,7 @@ const Hero = () => {
             <Button color={1} Text="Обсудить проект" icon={1} onClick={console.log("asd")}/>
             <button onClick={alert("asd")}></button>
         </div>
-            <img className='hero-img' src="/photo.png" alt="" />
+            <img className='hero-img' src="/photo.png" alt="img" />
       </div>
     </div>
   )
